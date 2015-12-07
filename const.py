@@ -1,0 +1,12 @@
+rgbFolder = 'C:/Users/Alexander/Documents/Chessboard/RGB/'
+irFolder = 'C:/Users/Alexander/Documents/Chessboard/IR/'
+depthFolder = 'C:/Users/Alexander/Documents/Chessboard/Depth/'
+rgbCameraIntrinsic = 'C:/Users/Alexander/Documents/Chessboard/CalibrationResults/RGB'
+irCameraIntrinsic = 'C:/Users/Alexander/Documents/Chessboard/CalibrationResults/IR'
+square_size = 0.08224 #metres
+pattern_size = (6, 8)
+rgbToIR = 'C:/Users/Alexander/Documents/Chessboard/CalibrationResults/rgbToIR'
+ir_image_size = (424,512)
+rgb_image_size = (1080,1920)
+numberOfDepthFramesForDepthCalibration = 100
+numberOfDistanceForDepthCalibration = 25
