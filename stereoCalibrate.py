@@ -7,8 +7,6 @@ import os
 import const
 from glob import glob
 
-
-
 def getImagePoints(imageNames):
     img_points = []
     for fileName in imageNames:
